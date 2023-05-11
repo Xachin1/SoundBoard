@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgb(18, 70, 70);
+}
+h1 {
+  color: white;
+}
+.btn {
+  background-color: blueviolet;
+  border-radius: 9px;
+  color: antiquewhite;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.5;
+  color: rgb(107, 229, 20);
+}
+.btn:focus {
+  outline: none;
+}
